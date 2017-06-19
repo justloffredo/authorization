@@ -107,7 +107,7 @@ app.get("/home", function(req, res, username) {
 app.get("/logout", function(req, res) {
 	res,session.user = null;
 	res.redirect("/");
-});
+});	
 
 
 // *** Startup *** //
